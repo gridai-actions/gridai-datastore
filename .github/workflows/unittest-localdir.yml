@@ -1,6 +1,7 @@
 # Trigger
 name: 'Grid.ai Run Local Dir'
 on:
+  workflow_call:
   push:
     paths:
       - action.yml
